@@ -1,4 +1,4 @@
-package com.mon.projectbase.config;
+package com.mon.interviewmn.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.mon.projectbase.config;
+package com.mon.interviewmn.config;
 
 import io.github.jhipster.config.JHipsterProperties;
 import org.slf4j.Logger;

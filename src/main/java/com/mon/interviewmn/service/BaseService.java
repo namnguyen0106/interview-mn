@@ -1,12 +1,14 @@
-package com.mon.projectbase.service;
+package com.mon.interviewmn.service;
 
-import com.mon.projectbase.dto.BaseDTO;
-import com.mon.projectbase.model.BaseEntity;
-import com.mon.projectbase.repository.BaseRepository;
+import com.mon.interviewmn.dto.BaseDTO;
+import com.mon.interviewmn.model.BaseEntity;
+import com.mon.interviewmn.repository.BaseRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import javax.transaction.Transactional;
+import java.text.ParseException;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Transactional
@@ -20,6 +22,6 @@ public abstract class BaseService<Repository extends BaseRepository<Entity> & Jp
 
     public abstract DTO delete(DTO dto);
 
-    public abstract List<DTO> findAll();
+    public abstract List<DTO> findAll(Map<String, String> param) throws ParseException;
 
 }

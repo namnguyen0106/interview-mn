@@ -1,10 +1,10 @@
-package com.mon.projectbase;
+package com.mon.interviewmn;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProjectBaseApplicationTests {
+class InterviewMnApplicationTests {
 
     @Test
     void contextLoads() {

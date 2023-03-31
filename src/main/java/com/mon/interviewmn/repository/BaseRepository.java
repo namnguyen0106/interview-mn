@@ -1,6 +1,6 @@
-package com.mon.projectbase.repository;
+package com.mon.interviewmn.repository;
 
-import com.mon.projectbase.model.BaseEntity;
+import com.mon.interviewmn.model.BaseEntity;
 import org.springframework.data.repository.NoRepositoryBean;
 
 @NoRepositoryBean

@@ -1,4 +1,4 @@
-package com.mon.projectbase.dto;
+package com.mon.interviewmn.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
